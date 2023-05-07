@@ -5,7 +5,7 @@ import css from './ContactList.module.css';
 
 export const ContactList = ({contacts, onDeliteContact}) =>{ 
     return (
-        <ul>
+        <ul className={css.contactLists}>
             {contacts.map(({id, name, number}) =>
                 <li className={css.contactListItem}
                     key={id}>

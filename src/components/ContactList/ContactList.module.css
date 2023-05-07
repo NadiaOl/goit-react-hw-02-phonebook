@@ -1,3 +1,7 @@
+.contactLists {
+    width: 328px;
+}
+
 .contactListItem {
     list-style: url(./phone.svg);
 
@@ -24,4 +28,5 @@
     border: 1px solid #E3D3D9;
     background-color: #FFEDF4;
     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+
 }

@@ -12,6 +12,6 @@ return (
 )
 }
 Filter.propTypes = {
-  // onChangeFilter: PropTypes.func.isRequired,
+  onChangeFilter: PropTypes.func.isRequired,
   value: PropTypes.string.isRequired,
 }
